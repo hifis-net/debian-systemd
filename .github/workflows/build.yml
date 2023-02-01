@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["10", "11"]
+        version: ["10", "11", "bookworm"]
 
     steps:
       - name: Checkout repository

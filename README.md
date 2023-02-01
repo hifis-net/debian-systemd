@@ -1,10 +1,11 @@
 # Systemd Debian Container Images For Ansible and Podman
 
-Systemd Ubuntu Container Images for testing Ansible roles with Molecule and Podman.
-Supported Ubuntu versions:
+Systemd Debian Container Images for testing Ansible roles with Molecule and Podman.
+Supported Debian versions:
 
 * `11` - Bullseye
 * `10` - Buster
+* `bookworm` - Bookworm
 
 ## Available Images
 
@@ -16,6 +17,7 @@ and are automatically rebuilt once a week.
 
 * `ghcr.io/hifis-net/debian-systemd:11`
 * `ghcr.io/hifis-net/debian-systemd:10`
+* `ghcr.io/hifis-net/debian-systemd:bookworm`
 
 ## How to Use
 
