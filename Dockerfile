@@ -1,4 +1,4 @@
-ARG VERSION=11
+ARG VERSION=12
 
 FROM debian:${VERSION}-slim
 LABEL maintainer="HIFIS (https://www.hifis.net)"
