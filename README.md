@@ -15,7 +15,7 @@ GitHub Package Registry.
 These tags are available. They are updated on changes to the `main` branch
 and are automatically rebuilt once a week.
 
-* `ghcr.io/hifis-net/debian-systemd:trixie`
+* `ghcr.io/hifis-net/debian-systemd:13`
 * `ghcr.io/hifis-net/debian-systemd:12`
 * `ghcr.io/hifis-net/debian-systemd:11`
 * `ghcr.io/hifis-net/debian-systemd:10` (EOL)
@@ -26,10 +26,10 @@ and are automatically rebuilt once a week.
 * Run the container via Podman:
 
   ```bash
-  podman run -it --systemd=true --privileged ghcr.io/hifis-net/debian-systemd:11
+  podman run -it --systemd=true --privileged ghcr.io/hifis-net/debian-systemd:13
   ```
 
 ## Authors
 
 This project is maintained by [HIFIS](https://www.hifis.net).
-It is built upon https://github.com/geerlingguy/docker-debian11-ansible.
+It is built upon <https://github.com/geerlingguy/docker-debian11-ansible>.
