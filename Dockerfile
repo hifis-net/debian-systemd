@@ -11,7 +11,7 @@ RUN apt-get update \
        sudo systemd systemd-sysv \
        build-essential wget libffi-dev libssl-dev procps \
        python3-dev \
-       iproute2 \
+       iproute2 dbus \
     && rm -rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
