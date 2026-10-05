@@ -3,6 +3,7 @@
 Systemd Debian Container Images for testing Ansible roles with Molecule and Podman.
 Supported Debian versions:
 
+* `14` - Forky
 * `13` - Trixie
 * `12` - Bookworm
 
@@ -14,6 +15,7 @@ GitHub Package Registry.
 These tags are available. They are updated on changes to the `main` branch
 and are automatically rebuilt once a week.
 
+* `ghcr.io/hifis-net/debian-systemd:forky`
 * `ghcr.io/hifis-net/debian-systemd:13`
 * `ghcr.io/hifis-net/debian-systemd:12`
 * `ghcr.io/hifis-net/debian-systemd:11` (EOL)
