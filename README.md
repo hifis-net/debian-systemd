@@ -5,7 +5,6 @@ Supported Debian versions:
 
 * `13` - Trixie
 * `12` - Bookworm
-* `11` - Bullseye
 
 ## Available Images
 
@@ -17,7 +16,7 @@ and are automatically rebuilt once a week.
 
 * `ghcr.io/hifis-net/debian-systemd:13`
 * `ghcr.io/hifis-net/debian-systemd:12`
-* `ghcr.io/hifis-net/debian-systemd:11`
+* `ghcr.io/hifis-net/debian-systemd:11` (EOL)
 * `ghcr.io/hifis-net/debian-systemd:10` (EOL)
 
 ## How to Use
